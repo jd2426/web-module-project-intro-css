@@ -2,48 +2,110 @@
     box-sizing: border-box;
 }
 
+
 .nav-bar {
     text-align: center;
-    padding: 2%;
+    padding: 3%;
+    margin-bottom: 5%;
 
 }
 
 .link1 {
-    background-color: chartreuse;
-    padding: 1%;
-    margin: 1%;
-    border-radius: 20%;
+    background-color:#FF764E;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    
 }
 
 .link2 {
-
+    background-color: #5ED3EB;
+    padding: 1em;
+    margin: 5em;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
 }
 
 .link3 {
-
+    background-color:#FFCD69;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
 }
 
-.circle img {
+.link4 {
+    background-color:#FF764E;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.link5 {
+    background-color: #5ED3EB;
+    padding: 1em;
+    margin: 5em;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.link6 {
+    background-color:#FFCD69;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.column {
+    float:left;
+    width: 50%;
+    padding: 5px;
+    height: 10rem;
+}
+
+
+
+.column img {
+    margin-left: 60%;
     border-radius: 50%;
-    margin-left: 20%;
-    margin-top: 2.5%;
+    margin-top: -6%;
+    
 }
 
-.sectiontwo {
-    text-align: center;
-    float: right;
-    margin-right: 25%;
-    margin-top: 5%;
-}
+h1 {
+    font-size: 150%;
+    font-family: 'Chelsea Market', cursive;
+
+    }
+
+    p {
+        font-family: 'Roboto Mono', monospace;
+    }
+
+
 
 .maintext {
-    background-color: brown;
-    padding: 0 auto;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 1%;
-    text-align: center;
+  
+   background-color: #ddb9a3;
+   margin-left: 10%;
+   margin-right: 10%;
+   font-family: 'Roboto Mono', monospace;
+   color: white;
+   text-align: center;
+   font-size: 100%;
+   margin-top: 6%;
+
 }
+
 
 .firelog img {
     display: block;
@@ -53,6 +115,10 @@
     
 }
 
+.firelog p {
+    text-align: center;
+}
+
 .truck img {
     display: block;
     margin-left: auto;
@@ -60,11 +126,30 @@
     margin-top: 2%;
 }
 
-.footer img {
+.truck p {
+    text-align: center;
+    margin-top: auto;
+}
 
+.footer img {
+    max-height: 30vh; 
+    margin-bottom: -1%;
 }
 
 .button1 {
     background-color: cadetblue;
     border-radius: 6%;
   }
+
+  .nav-bar2 {
+    text-align: center;
+    padding: 3%;
+  }
+
+  .nav-bar2{
+      background-color: #f9e7dc;
+      
+  }
+
+  
+  
